@@ -1,0 +1,98 @@
+/* h1 {
+    color: #fff; /* text color */
+    /* font-family: "Source Sans Pro", sans-serif;
+    font-size: 70px;
+    font-weight: bold; */ 
+
+#Header {
+  background-color: #99cccc;
+  height: 800px;
+  width: 1400px;
+  opacity: .6;
+
+  .Main_Header_Image {
+  background-image: url("Main Header Image.png");
+  left: -2px;
+  top: -155px;
+  width: 1440px;
+  height: 800px;
+  /* offset by columns to get correcting portion */
+}
+
+H1 {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 72px;  /* 4.5 em */ 
+  font-weight: bold; 
+  color: #ffffff;
+  text-align: center;
+}
+
+H2 { 
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 40px; /* 2.5 em */
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Navigation_menu {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 18px; /* 1.125 em */
+  font-weight: bold;
+  color: #ffffff;
+
+
+#Marketing_H1 {
+  font-family: "Adriane Text", "Palatino", "Times New Roman" serif;
+  font-size: 30px; /* 1.875 em */
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  }
+  
+#Marketing_H2 {
+  font-family: "Adriane Text", "Palatino", "Times New Roman" serif;
+  font-size: 18px; /* 1.125 em */
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.FeatureText {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 24px; /* 1.5 em */
+  font-weight: bold;
+  color: #ffffff;
+  opacity: .9;
+  text-align: left;
+}
+
+#Marketing2_H2 {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 36px; /* 2.25 em */
+  font-weight: bold;
+  color: #333333;
+  opacity: .9;
+  text-align: center;
+}
+
+#Marketing2_H1 {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 40px; /* 2.5 em */
+  font-weight: bold;
+  font-style: italic; 
+  color: #333333;
+  opacity: .9;
+  text-align: center;
+}
+
+.Copywrite {
+  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
+  font-size: 18px; /* 1.125 em */
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
