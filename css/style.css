@@ -1,98 +1,226 @@
-/* h1 {
-    color: #fff; /* text color */
-    /* font-family: "Source Sans Pro", sans-serif;
-    font-size: 70px;
-    font-weight: bold; */ 
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; 
+}
 
-#Header {
+div#header {
   background-color: #99cccc;
-  height: 800px;
-  width: 1400px;
-  opacity: .6;
-
-  .Main_Header_Image {
-  background-image: url("Main Header Image.png");
-  left: -2px;
-  top: -155px;
-  width: 1440px;
-  height: 800px;
-  /* offset by columns to get correcting portion */
+  opacity: .7;
+  background-size: cover;
+  background-position: center-center;
+  margin: 0;
+  min-height: 500px; 
 }
 
-H1 {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 72px;  /* 4.5 em */ 
-  font-weight: bold; 
-  color: #ffffff;
+header {
+  margin-top:20px;
+}
+
+header h1 {
+  margin:0;
+  display: inline;
+}
+
+header nav {
+  display: inline;
+}
+
+header nav ul {
+  float: right;
+  list-style-type:none;
+  margin-top: 15px;
+}
+
+header nav ul li {
+  display: inline;
+  padding:0px 10px;
+}
+
+header nav ul li.selected {
+  border-bottom: 4px solid #061859;
+  padding-bottom: 10px;
+}
+
+header nav ul li a {
+  color:#fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color:#ecc687;
+}
+
+h1,h2,h3,h5,p{
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h4,h6 {
+  font-family: "Adriane Text", Palatino, Times, serif;
+}
+
+a, a:visited {
+    color:#fff;
+}
+
+div#marketing {
+  text-align:center;
+  margin-top: 50px;
+}
+
+div#marketing h1 {
+  font-weight: bold;
+  color:#fff;
+  font-size: 60px;
+  margin: 0;
+}
+
+div#marketing h4 {
+  color:#fff;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+div#marketing h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
+div#features {
+  text-align: center;
+  padding:30px 0;
+  background-color:#061859;
+  opacity: .8;
+  margin: 0px;
+}
+
+div#features h3 {
+  font-weight: bold;
+  color:#fff;
+}
+
+div#features p {
+  color:#fff;
+}
+
+div#features span.circle {
+  background-color:#fff;
+  border-radius:50%;
+  height: 180px;
+  width: 180px;
+  display: block;
+  position: relative;
+  margin:0 auto 20px;
+}
+
+div#marketing_2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-color:#333333;
+  opacity: .8;
+  line-height: .5;
+}
+
+div#marketing_2 h3 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16 px;
+}
+
+div#testimonials {
+  text-align: center;
+  padding:30px 0;
+  background-color:#061859;
+  opacity: .8;
+  margin: 0px;
+}
+
+div#marketing_3 h2 {
+  color:#fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-weight: 24px;
+}
+
+div#testimonials p {
+  color: #fff; 
+  text-align: left;
+  margin-top: 10px;
+}
+
+div#testimonials span.circle {
+  background-color:#fff;
+  border-radius:50%;
+  height: 150px;
+  width: 150px;
+  display: block;
+  position: relative;
+  margin:0 auto 20px;
+}
+
+div#footer {
+  background-color: #99cccc;
+  opacity: .7;
+  background-size: cover;
+  background-position: center-center;
+  margin: 0;
   text-align: center;
 }
 
-H2 { 
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 40px; /* 2.5 em */
+div#final_call h2 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
   font-weight: bold;
-  color: #ffffff;
-  text-align: center;
+  font-size: 24px;
+  padding-top: 30px;
 }
 
-.Navigation_menu {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 18px; /* 1.125 em */
-  font-weight: bold;
-  color: #ffffff;
-
-
-#Marketing_H1 {
-  font-family: "Adriane Text", "Palatino", "Times New Roman" serif;
-  font-size: 30px; /* 1.875 em */
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
-  }
-  
-#Marketing_H2 {
-  font-family: "Adriane Text", "Palatino", "Times New Roman" serif;
-  font-size: 18px; /* 1.125 em */
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
+div#footer nav {
+  margin:10px 0 0;
+  margin-bottom: 10px;
+  float: left;
 }
 
-.FeatureText {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 24px; /* 1.5 em */
-  font-weight: bold;
-  color: #ffffff;
-  opacity: .9;
+div#footer nav ul {
+  list-style-type:none;
+}
+
+div#footer nav ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+div#footer nav ul li a {
+  color:#fff;
+  text-decoration: none;
+}
+
+div#footer nav ul li a:hover {
+  color:#ecc687;
+  text-decoration: none;
+}
+
+.right {
+  text-align: right;
+  margin-left: 300px;
+}
+
+.left {
   text-align: left;
 }
 
-#Marketing2_H2 {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 36px; /* 2.25 em */
-  font-weight: bold;
-  color: #333333;
-  opacity: .9;
-  text-align: center;
-}
 
-#Marketing2_H1 {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 40px; /* 2.5 em */
-  font-weight: bold;
-  font-style: italic; 
-  color: #333333;
-  opacity: .9;
-  text-align: center;
-}
 
-.Copywrite {
-  font-family: "Open Sans", "Arial", "Helvetica" sans-serif;
-  font-size: 18px; /* 1.125 em */
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
