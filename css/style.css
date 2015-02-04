@@ -4,7 +4,7 @@ body {
 
 div#header {
   background-color: #99cccc;
-  opacity: .7;
+  background-image: url('../images/MainHeader.png');
   background-size: cover;
   background-position: center-center;
   margin: 0;
@@ -111,6 +111,7 @@ div#features span.circle {
   margin:0 auto 20px;
 }
 
+
 div#marketing_2 {
   margin-top: 30px;
   text-align: center;
@@ -159,8 +160,7 @@ div#testimonials span.circle {
 
 div#footer {
   background-color: #99cccc;
-  opacity: .7;
-  background-size: cover;
+  background-image: url('../images/FooterImage.png')
   background-position: center-center;
   margin: 0;
   text-align: center;
