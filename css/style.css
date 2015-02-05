@@ -3,12 +3,51 @@ body {
 }
 
 div#header {
-  background-color: #99cccc;
-  background-image: url('../images/MainHeader.png');
+  background-image: url('../images/MainHeader.jpg');
   background-size: cover;
-  background-position: center-center;
+  background-position: center;
   margin: 0;
-  min-height: 500px; 
+  min-height: 700px; 
+}
+
+.round {
+  background-color: blue;
+  height: 125px;
+  width: 125px;
+  border-radius: 60px;
+  background-position: center; 
+}
+
+.round_2 {
+  background-color: blue;
+  height: 260px;
+  width: 260px;
+  border-radius: 130px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#feature1 {
+  background-image: url('../images/feature1.png');
+  background-position: center; 
+}
+
+#feature2 {
+  background-image: url('../images/feature2.png');
+  background-position: center; 
+}
+
+#feature3 {
+  background-image: url('../images/feature3.png');
+  background-position: center;
+}
+
+#tanner {
+  background-image: url('../images/Tanner.png')
+}
+
+#laura {
+  background-image: url('../images/Laura.png');
 }
 
 header {
@@ -36,7 +75,7 @@ header nav ul li {
 }
 
 header nav ul li.selected {
-  border-bottom: 4px solid #061859;
+  border-bottom: 4px solid #99cccc;
   padding-bottom: 10px;
 }
 
@@ -46,10 +85,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color:#ecc687;
+  color:rgba(236, 198, 135, 1)
 }
 
-h1,h2,h3,h5,p{
+h1,h2,h3,h5,p, nav {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -63,12 +102,13 @@ a, a:visited {
 
 div#marketing {
   text-align:center;
-  margin-top: 50px;
+  margin-top: 125px;
 }
 
 div#marketing h1 {
   font-weight: bold;
   color:#fff;
+  text-shadow: 3px 3px #333;
   font-size: 60px;
   margin: 0;
 }
@@ -76,6 +116,7 @@ div#marketing h1 {
 div#marketing h4 {
   color:#fff;
   font-size: 24px;
+  text-shadow: 1px 1px #333;
   margin-top: 10px;
 }
 
@@ -86,52 +127,61 @@ div#marketing h6 {
 
 div#features {
   text-align: center;
-  padding:30px 0;
   background-color:#061859;
-  opacity: .8;
-  margin: 0px;
+  opacity: .85;
+  padding-bottom: 10px;
 }
 
 div#features h3 {
   font-weight: bold;
+  font-size: 42px;
+  text-shadow: 2px 2px #333;
   color:#fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 div#features p {
   color:#fff;
 }
 
-div#features span.circle {
-  background-color:#fff;
-  border-radius:50%;
-  height: 180px;
-  width: 180px;
-  display: block;
-  position: relative;
-  margin:0 auto 20px;
-}
-
 
 div#marketing_2 {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   font-size: 18px;
   font-color:#333333;
   opacity: .8;
-  line-height: .5;
 }
 
 div#marketing_2 h3 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 16 px;
+  line-height: .5; 
 }
+
+div#screengrab {
+  position: center; 
+  margin-bottom: -10px;
+}
+
+.container_2 {
+  width: 282px;
+  height: auto;
+}
+
+.container_2 img {
+  width: 100%;
+  height: auto;
+}
+
 
 div#testimonials {
   text-align: center;
   padding:30px 0;
   background-color:#061859;
-  opacity: .8;
+  opacity: .85;
   margin: 0px;
 }
 
@@ -140,6 +190,8 @@ div#marketing_3 h2 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-weight: 24px;
+  text-shadow: 2px 2px #333;
+  text-align: center; 
 }
 
 div#testimonials p {
@@ -148,35 +200,30 @@ div#testimonials p {
   margin-top: 10px;
 }
 
-div#testimonials span.circle {
-  background-color:#fff;
-  border-radius:50%;
-  height: 150px;
-  width: 150px;
-  display: block;
-  position: relative;
-  margin:0 auto 20px;
+div#marketing_2 button {
+  margin-top: 15px;
 }
+
 
 div#footer {
   background-color: #99cccc;
-  background-image: url('../images/FooterImage.png')
-  background-position: center-center;
-  margin: 0;
+  background-image: url('../images/FooterImage.jpg');
+  background-position: 50% -55%;
   text-align: center;
 }
 
 div#final_call h2 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #fff;
+  text-shadow: 2px 2px #333;
   font-weight: bold;
-  font-size: 24px;
-  padding-top: 30px;
+  font-size: 30px;
+  padding-top: 20px;
+  opacity: .9;
 }
 
 div#footer nav {
-  margin:10px 0 0;
-  margin-bottom: 10px;
+  margin-top:40px;
   float: left;
 }
 
@@ -194,6 +241,12 @@ div#footer nav ul li a {
   text-decoration: none;
 }
 
+div#footer p {
+  margin-top: 40px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
 div#footer nav ul li a:hover {
   color:#ecc687;
   text-decoration: none;
@@ -201,13 +254,21 @@ div#footer nav ul li a:hover {
 
 .right {
   text-align: right;
-  margin-left: 300px;
+  margin-top: 20px;
 }
 
 .left {
   text-align: left;
+  margin-top: 20px;
 }
 
+/* Mobile Responsive */
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 
 

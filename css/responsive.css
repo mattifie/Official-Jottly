@@ -1,0 +1,34 @@
+@media (min-width: 400px) {
+  header h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  header nav ul {
+    float: none;
+    text-align: center;
+  }
+
+  header nav ul li {
+    display: block;
+  }
+
+  header nav ul li.selected {
+    border-bottom: none;
+    padding: 5px 0;
+    background-color: #999ccc;
+  }
+
+  div#footer nav {
+    text-align: center;
+  }
+
+  div#footer div.right {
+    text-align: center;
+    }
+}
