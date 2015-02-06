@@ -1,4 +1,19 @@
-@media (min-width: 400px) {
+@media (max-width: 480px) {
+
+  div#testimonials p {
+    color: #fff; 
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #tanner, #laura {
+    margin: 0 auto;
+  }
+
+  .four.columns {
+    margin-left: 0px;
+  }
+
   header h1 {
     display: block;
     text-align: center;
@@ -22,6 +37,28 @@
     border-bottom: none;
     padding: 5px 0;
     background-color: #999ccc;
+  }
+
+  div#marketing h6 {
+    color: #333;
+  }
+
+.left {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  .right {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
 
   div#footer nav {
