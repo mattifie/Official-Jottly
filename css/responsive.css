@@ -1,5 +1,22 @@
 @media (max-width: 480px) {
 
+  div#features {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  div#feature1 {
+    padding-top: 20px;
+  }
+
+  div#macbook {
+    padding: 0;
+  }
+
+  div#testimonials {
+    padding: 30px 0;
+  }
+
   div#testimonials p {
     color: #fff; 
     text-align: center;
@@ -43,27 +60,24 @@
     color: #333;
   }
 
-.left {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  .right {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
+  div#footer {
+    background-position: 50% -55%;
   }
 
   div#footer nav {
     text-align: center;
+    padding-top: 10px;
   }
+
+  div#footer nav ul li a {
+  color:#000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+  div#footer nav ul li a:hover {
+  color: #ee395e 
+}
 
   div#footer div.right {
     text-align: center;

@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Jott.ly</title>
+  <title>Jott.ly | The Way to Write</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -26,7 +26,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/jottlyfavicon.png">
 
 </head>
 <body>
@@ -50,7 +50,7 @@
               <div id="marketing" class="ten columns offset-by-one">
                   <h1>Write, share &amp; edit, effortlessly.</h1>
                   <h4>Write and edit your best material – with the help of your peers.</h4>
-                  <button class="button-primary">Sign up</button>
+                  <button class="button-primary" onclick="alertMe()">Sign up</button>
                   <h6>Write now, for free!</h6>
               </div>
             </div>      
@@ -86,7 +86,7 @@
               <div id="marketing_2">
                       <h4>Yesterday, more than 500 writers and editors signed up for Jott.ly.</h4>
                       <h3><em>Want to join them?</em></h3>
-                      <button class="button-primary">Sign up</button>
+                      <button class="button-primary" onclick="alertMe()">Sign up</button>
               </div>
               <div id="screengrab" class="six columns offset-by-three">
                   <img src="images/macbook.png"/>
@@ -129,10 +129,10 @@
                       <br>
                       No need to wait – sign up <em>write</em> now!
                     </h2>
-                    <button class="button-primary">Sign up</button>
+                    <button class="button-primary" onclick="alertMe()">Sign up</button>
             </div>
               <div class="row">
-                <div class="eight columns left">
+                <div class="one-third column">
                   <nav>
                       <ul>
                           <li><a href="#">HOME</a></li>
@@ -141,7 +141,10 @@
                       </ul>
                   </nav>
                 </div>
-                <div class="four columns right">
+                <div class="one-third column">
+                  <img src="images/socialmedia.png">
+                </div>
+                <div class="one-third column">
                     <p>&copy; 2015. Jott.ly. All Rights Reserved.</p>
                 </div>
             </div>
@@ -149,6 +152,11 @@
         </div>
       </div>
     </div>
+    <script>
+      function alertMe(){
+        alert("Thank you!\nYou're en route to an enriched writing process.");
+      }
+    </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

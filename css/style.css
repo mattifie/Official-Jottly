@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color:rgba(236, 198, 135, 1)
+  color: #ee395e
 }
 
 h1,h2,h3,h5,p, nav {
@@ -239,7 +239,7 @@ div#final_call h2 {
 
 div#footer nav {
   margin-top:40px;
-  float: left;
+  position: center; 
 }
 
 div#footer nav ul {
@@ -250,6 +250,7 @@ div#footer nav ul li {
   display: inline;
   padding-right: 10px;
 }
+
 
 div#footer nav ul li a {
   color:#fff;
@@ -263,20 +264,22 @@ div#footer p {
 }
 
 div#footer nav ul li a:hover {
-  color:#ecc687;
+  color:#ee395e;
   text-decoration: none;
 }
 
-.right {
-  text-align: right;
-  margin-top: 20px;
+.one-third_column {
+  text-align: center;
 }
 
-.left {
-  text-align: left;
-  margin-top: 20px;
+
+div#footer img{
+  padding-top: 35px;
 }
 
+div#footer .row{
+  padding-top: 85px;
+}
 /* Mobile Responsive */
 
 img {
