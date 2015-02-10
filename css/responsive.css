@@ -1,5 +1,9 @@
 @media (max-width: 480px) {
 
+  .overlay {
+    display: none;
+  }
+
   div#features {
     padding-bottom: 10px;
     padding-top: 20px;
@@ -56,6 +60,12 @@
     background-color: #999ccc;
   }
 
+  header nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px #333;
+}
+
   div#marketing h6 {
     color: #333;
   }
@@ -64,13 +74,15 @@
     background-position: 50% -55%;
   }
 
+  div#footer h1 
+
   div#footer nav {
     text-align: center;
     padding-top: 10px;
   }
 
   div#footer nav ul li a {
-  color:#000;
+  color:#fff;
   font-weight: bold;
   text-decoration: none;
 }
