@@ -101,17 +101,17 @@ div#features {
 }
 
 #feature1 {
-  background-image: url('../images/feature1.png');
+  background-image: url('../images/Feature1.png');
   background-position: center; 
 }
 
 #feature2 {
-  background-image: url('../images/feature2.png');
+  background-image: url('../images/Feature2.png');
   background-position: center; 
 }
 
 #feature3 {
-  background-image: url('../images/feature3.png');
+  background-image: url('../images/Feature3.png');
   background-position: center;
 }
 
