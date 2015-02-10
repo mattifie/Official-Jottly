@@ -1,0 +1,312 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; 
+}
+
+div#header {
+  background-image: url('../images/MainHeader.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  min-height: 700px; 
+}
+
+.overlay {
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,.5);
+}
+
+header {
+  margin-top:20px;
+}
+
+header h1 {
+  margin:0;
+  display: inline;
+}
+
+header nav {
+  display: inline;
+}
+
+header nav ul {
+  float: right;
+  list-style-type:none;
+  margin-top: 15px;
+}
+
+header nav ul li {
+  display: inline;
+  padding:0px 10px;
+}
+
+header nav ul li.selected {
+  border-bottom: 4px solid #96d9f0;
+  padding-bottom: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px #333;
+}
+
+header nav ul li a:hover {
+  color: #ee395e
+}
+
+h1,h2,h3,h5,p, nav {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h4,h6 {
+  font-family: "Adriane Text", Palatino, Times, serif;
+}
+
+a, a:visited {
+    color:#fff;
+}
+
+div#marketing {
+  text-align:center;
+  margin-top: 125px;
+}
+
+div#marketing h1 {
+  font-weight: bold;
+  color:#fff;
+  text-shadow: 3px 3px #333;
+  font-size: 60px;
+  margin: 0;
+}
+
+div#marketing h4 {
+  color:#fff;
+  font-size: 24px;
+  text-shadow: 1px 1px #333;
+  margin-top: 10px;
+}
+
+div#marketing h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
+div#features {
+  text-align: center;
+  background-color:#061859;
+  opacity: .85;
+  padding: 100px 0px;
+}
+
+#feature1 {
+  background-image: url('../images/feature1.png');
+  background-position: center; 
+}
+
+#feature2 {
+  background-image: url('../images/feature2.png');
+  background-position: center; 
+}
+
+#feature3 {
+  background-image: url('../images/feature3.png');
+  background-position: center;
+}
+
+div#features h3 {
+  font-weight: bold;
+  font-size: 42px;
+  text-shadow: 2px 2px #333;
+  color:#fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+div#features p {
+  color:#fff;
+}
+
+
+div#marketing_2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0 50px 0;
+}
+
+div#marketing_2 h4 {
+  color: #333;
+}
+
+div#marketing_2 h3 {
+  color: #333;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16 px;
+  line-height: .5; 
+}
+
+div#marketing_2 button {
+  margin-top: 15px;
+}
+
+div#macbook {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+div#screengrab {
+  position: center; 
+  margin-bottom: -10px;
+}
+
+.container_2 {
+  width: 282px;
+  height: auto;
+}
+
+.container_2 img {
+  width: 100%;
+  height: auto;
+}
+
+
+#testimonials {
+  text-align: center;
+  padding: 100px 0;
+  background-color:#061859;
+  opacity: .85;
+  margin: 0px;
+}
+
+div#marketing_3 h2 {
+  color:#fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-weight: 24px;
+  text-shadow: 2px 2px #333;
+  text-align: center; 
+}
+
+#testimonials p {
+  color: #fff; 
+  text-align: left;
+  margin-top: 10px;
+}
+
+#tanner {
+  background-image: url('../images/Tanner.png')
+}
+
+#laura {
+  background-image: url('../images/Laura.png');
+}
+
+.four.columns {
+  margin-left: 20px;
+}
+
+.round {
+  background-color: blue;
+  height: 125px;
+  width: 125px;
+  border-radius: 60px;
+  background-position: center; 
+}
+
+.round_2 {
+  background-color: blue;
+  height: 260px;
+  width: 260px;
+  border-radius: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+div#footer {
+  background-image: url('../images/FooterImage.jpg');
+  background-position: 50% 80%;
+  text-align: center;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+div#final_call h2 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 40px;
+  opacity: .9;
+}
+
+div#footer nav {
+  margin-top:40px;
+  position: center; 
+}
+
+div#footer nav ul {
+  list-style-type:none;
+}
+
+div#footer nav ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+
+div#footer nav ul li a {
+  color:#fff;
+  text-decoration: none;
+}
+
+div#footer p {
+  margin-top: 40px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+div#footer nav ul li a:hover {
+  color:#ee395e;
+  text-decoration: none;
+}
+
+.one-third_column {
+  text-align: center;
+}
+
+
+div#footer img{
+  padding-top: 35px;
+}
+
+div#footer .row{
+  padding-top: 85px;
+}
+/* Mobile Responsive */
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

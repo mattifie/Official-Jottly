@@ -1,0 +1,97 @@
+@media (max-width: 480px) {
+
+  .overlay {
+    display: none;
+  }
+
+  div#features {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  div#feature1 {
+    padding-top: 20px;
+  }
+
+  div#macbook {
+    padding: 0;
+  }
+
+  div#testimonials {
+    padding: 30px 0;
+  }
+
+  div#testimonials p {
+    color: #fff; 
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #tanner, #laura {
+    margin: 0 auto;
+  }
+
+  .four.columns {
+    margin-left: 0px;
+  }
+
+  header h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  header nav ul {
+    float: none;
+    text-align: center;
+  }
+
+  header nav ul li {
+    display: block;
+  }
+
+  header nav ul li.selected {
+    border-bottom: none;
+    padding: 5px 0;
+    background-color: #999ccc;
+  }
+
+  header nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px #333;
+}
+
+  div#marketing h6 {
+    color: #333;
+  }
+
+  div#footer {
+    background-position: 50% -55%;
+  }
+
+  div#footer h1 
+
+  div#footer nav {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  div#footer nav ul li a {
+  color:#fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+  div#footer nav ul li a:hover {
+  color: #ee395e 
+}
+
+  div#footer div.right {
+    text-align: center;
+    }
+}
